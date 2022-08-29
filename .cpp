@@ -4,7 +4,7 @@ const int leftled =1;
 const int rightled =6;
 //The L298N (Motor Driver) Control Pins
 const int rightMotorForward = 2;
-const int rightMotorBackward = 3;
+const int rightMotorBackward = 7;
 
 const int leftMotorForward = 4;
 const int leftMotorBackward = 5;
@@ -13,12 +13,12 @@ const int m2 =A1; // left motor
  
 int trigger =A3; //
 int echo = A2;
-int rs = 0;
-int en = 0;
-int d4 = 0;
-int d5 = 0;
-int d6 = 0;
-int d7 = 0;
+int rs = 13;
+int en = 12;
+int d4 = 8;
+int d5 = 9;
+int d6 = 10;
+int d7 = 11;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
