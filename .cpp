@@ -13,8 +13,8 @@ const int m2 =A1; // left motor
  
 int trigger =A3; //
 int echo = A2;
-int rs = 13;
-int en = 12;
+int rs = 12;
+int en = 13;
 int d4 = 8;
 int d5 = 9;
 int d6 = 10;
